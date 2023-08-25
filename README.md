@@ -2,9 +2,9 @@
 
 ## Blending "Lending" and "Technology" to showcase the tech-driven efficiency of our mortgage approval bot!
 
-### The project involves the development of a mortgage loan approval application using Python's Streamlit framework. The application allows customers to submit loan applications through a chatbot interface. Additionally, a smart contract for loan approval is created using the REMIX IDE, enabling automated decision-making on loan applications. 
+  This project involves the development of a mortgage loan approval application using Python's Streamlit framework. The application allows customers to submit loan applications through a chatbot interface. Additionally, a smart contract for loan approval is created using the REMIX IDE, enabling automated decision-making on loan applications. 
 
-### This project intersects with fintech by leveraging cutting-edge technologies to streamline traditional financial processes. Fintech emphasizes the integration of technology to enhance financial services, and our project exemplifies this by utilizing Streamlit's interface and smart contracts to optimize the mortgage loan approval process.
+  This project intersects with fintech by leveraging cutting-edge technologies to streamline traditional financial processes. Fintech emphasizes the integration of technology to enhance financial services, and our project exemplifies this by utilizing Streamlit's interface and smart contracts to optimize the mortgage loan approval process.
 
 ### Project Goals
 * Develop a user-friendly mortgage loan application interface using Python's `Streamlit` framework
@@ -32,7 +32,7 @@
 * Testing and Deployment: Thoroughly test the integration between the chatbot and the smart contract. Deploy the smart contract to the chosen blockchain network and make the chatbot accessible to users.
 
 ### Project Flowchart
-
+![Screenshot 1](Flowcharts.png)
 
 
 ### General Objective: Design the Smart Contract
@@ -41,19 +41,19 @@
 We used Python and Streamlit to create a user-friendly chatbot-based interface for loan applications, capturing essential applicant information.
 
 * Streamlit UI
-A faster way to build and share data apps. Streamlit turns data scripts into shareable web apps in minutes. All in pure Python. No front‑end experience is required. Streamlit is an open-source Python library that can build a UI for various purposes, it is not limited to data apps/machine learning. It is easy to learn, and a few lines of code can create a beautiful web app
+A faster way to build and share data apps. Streamlit turns data scripts into shareable web apps in minutes. All in pure Python. No front‑end experience is required. Streamlit is an open-source Python library that can build a UI for various purposes, it is not limited to data apps/machine learning. It is easy to learn, and a few lines of code can create a beautiful web app.
 
-The Streamlit app can take user inputs, call contract functions, and display the results.
-Please note that this approach requires a two-step process: first deploying the contract in Remix and then building a separate Streamlit app to interact with the deployed contract. The Streamlit app communicates with the contract on the Ethereum network using the contract's ABI and address.
+  The Streamlit app can take user inputs, call contract functions, and display the results.
+  Please note that this approach requires a two-step process: first deploying the contract in Remix and then building a separate Streamlit app to interact with the deployed contract. The Streamlit app communicates with the contract on the   Ethereum network using the contract's ABI and address.
 
 * Blockchain
 A blockchain is a distributed database or ledger shared among a computer network's nodes. They are best known for their crucial role in cryptocurrency systems for maintaining a secure and decentralized record of transactions, but they are not limited to cryptocurrency uses. Blockchains can be used to make data in any industry immutable—the term used to describe the inability to be altered.
 
-Blockchain is ideal for delivering that information because it provides immediate, shared, and completely transparent information stored on an immutable ledger that can be accessed only by permissioned network members. A blockchain network can track orders, payments, accounts, production and much more.
+  Blockchain is ideal for delivering that information because it provides immediate, shared, and completely transparent information stored on an immutable ledger that can be accessed only by permissioned network members. A blockchain        network can track orders, payments, accounts, production and much more.
 
-The use of credit scoring, pay slips, and bank statements may become increasingly less important to approve a loan. Thanks to smart contracts, lenders are able to validate transactions, verify the legitimacy of counterparties, and perform routine account administration tasks almost momentarily, reducing costs and accelerating the process.
+  The use of credit scoring, pay slips, and bank statements may become increasingly less important to approve a loan. Thanks to smart contracts, lenders are able to validate transactions, verify the legitimacy of counterparties, and         perform routine account administration tasks almost momentarily, reducing costs and accelerating the process.
 
-We selected a blockchain platform that supports the development and deployment of smart contracts. Ethereum is selected due to its robust smart contract capabilities.
+  We selected a blockchain platform that supports the development and deployment of smart contracts. Ethereum is selected due to its robust smart contract capabilities.
 
 * Ethereum
 Ethereum is the community-run technology powering the cryptocurrency ether (ETH) and thousands of decentralized applications. Cryptocurrencies, such as Bitcoin, enable anyone to transfer money globally. Ethereum does, too, but it can also run code that enables people to create apps and organizations. It’s both resilient and flexible: any computer program can run on Ethereum. Ether (ETH) is the currency powering the Ethereum network and apps.
@@ -64,21 +64,20 @@ Solidity is a statically typed programming language designed for developing smar
 * Remix IDE
 To create smart contracts on the Ethereum blockchain, developers require an environment that simplifies the development process, provides useful tools and features, and streamlines the testing and debugging of smart contracts. Remix IDE fulfills these requirements and is widely used by developers for Solidity Smart Contract Development.
 
-Remix IDE is a powerful and popular Integrated Development Environment (IDE) for Solidity Smart Contract Development. It is a web-based IDE that allows developers to write, test, debug, and deploy smart contracts on the Ethereum blockchain. Remix IDE provides a user-friendly interface that simplifies the Solidity development process, making it accessible to developers of all skill levels.
-To incorporate real-world data into your smart contract, you can use Chain Link oracles to fetch external data (such as current interest rates) onto the blockchain for calculations.
+  Remix IDE is a powerful and popular Integrated Development Environment (IDE) for Solidity Smart Contract Development. It is a web-based IDE that allows developers to write, test, debug, and deploy smart contracts on the Ethereum           blockchain. Remix IDE provides a user-friendly interface that simplifies the Solidity development process, making it accessible to developers of all skill levels.
+  To incorporate real-world data into your smart contract, you can use Chain Link oracles to fetch external data (such as current interest rates) onto the blockchain for calculations.
 
 * Smart Contract Development
 In the REMIX IDE, we wrote a smart contract that evaluates loan applications based on predefined criteria and automatically approves or denies the application.
-
 Write the smart contract code using a programming language like Solidity (for Ethereum). Include functions for submitting mortgage applications, reviewing applications, calculating payments, and updating approval status.
 
 * Smart Contract
 A smart contract is a self-executing program that automates the actions required in an agreement or contract. Contracts execute themselves and transactions happen automatically when both parties meet the conditions specified as part of a transaction. The executed contract then adds on to the blockchain as a transaction. Once completed, the transactions are trackable and irreversible. Smart contracts permit trusted transactions and agreements to be carried out among disparate, anonymous parties without the need for a central authority, legal system, or external enforcement mechanism. Smart Contracts are indispensable to blockchain and vice-versa, as the execution happens because and through the blockchain technology. It is the digital identity that enables smart contracts as a technology. While blockchain technology has come to be thought of primarily as the foundation for Bitcoin, it has evolved far beyond underpinning a virtual currency.
 
-The Streamlit app can take user inputs, call contract functions, and display the results.
-Please note that this approach requires a two-step process: first deploying the contract in Remix and then building a separate Streamlit app to interact with the deployed contract. The Streamlit app communicates with the contract on the Ethereum network using the contract's ABI and address.
+  The Streamlit app can take user inputs, call contract functions, and display the results.
+  Please note that this approach requires a two-step process: first deploying the contract in Remix and then building a separate Streamlit app to interact with the deployed contract. The Streamlit app communicates with the contract on the   Ethereum network using the contract's ABI and address.
 
-The smart contract structure will handle the loan mortgage approval process. The smart contract will store relevant information such as applicant details, loan terms, and approval status.
+  The smart contract structure will handle the loan mortgage approval process. The smart contract will store relevant information such as applicant details, loan terms, and approval status.
 
 * Chatbot Interface
 A chatbot user interface (UI) is the layout of the chatbot software that a user sees and interacts with. It includes chat widget screens, a bot editor’s design, and other visual elements like images, buttons, and icons. All these indicators help a person get the most out of the chatbot tool if done right.
